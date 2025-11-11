@@ -1,0 +1,21 @@
+.navbar{
+  background-color: rgb(84, 9, 91);
+  display:flex;
+  padding:  20 20 20;
+  }
+
+.style-navbar{
+  text-decoration: none;
+  color:#fff;
+  margin-right: 1em;
+}
+
+li{
+  list-style: none;
+  &.active,&:hover{
+    color:#fff;
+    border-bottom: 2px solid #2b0342;
+}
+}
+
+
